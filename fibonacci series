@@ -1,0 +1,79 @@
+num = int(input("enter number of digits you want in series (minimum 2): "))
+
+first = 0
+
+second = 1
+
+print("\nfibonacci series is:")
+
+print(first, ",", second, end=", ")
+
+for i in range(2, num):
+
+next = first + second
+
+print(next, end=", ")
+
+first = second
+
+second = next
+
+1
+
+2
+
+3
+
+4
+
+5
+
+6
+
+7
+
+8
+
+9
+
+10
+
+11
+
+12
+
+13
+
+14
+
+num = int(input("enter number of digits you want in series (minimum 2): "))
+
+first = 0
+
+second = 1
+
+print("\nfibonacci series is:")
+
+print(first, ",", second, end=", ")
+
+for i in range(2, num):
+
+next = first + second
+
+print(next, end=", ")
+
+first = second
+
+second = next
+
+Output
+
+enter number of digits you want in series (minimum 2): 6
+
+fibonacci series is:
+
+0 , 1, 1, 2, 3, 5,
+
+
+
+
